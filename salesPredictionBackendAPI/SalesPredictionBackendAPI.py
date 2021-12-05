@@ -2,18 +2,17 @@ from flask import Flask, jsonify, make_response, request, abort
 import pandas as pd
 import catboost
 import pickle
-from flask_cors import CORS
 from flask_cors import CORS,cross_origin
 from google.cloud import pubsub_v1
 import os
 import json
 
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:/Users/nisch/Downloads/civic-matrix-327917-eda1069fb875.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="civic-matrix-327917-eda1069fb875.json"
 
 
 
-model = pickle.load(open( "C:/Users/nisch/finalized_model.sav", "rb"))
+model = pickle.load(open( "finalized_model.sav", "rb"))
 app = Flask(__name__)
 app.config['CORS_HEADERS'] = 'Content-Type'
 cors = CORS(app)
@@ -43,7 +42,7 @@ def not_found(error):
 def result_data(final_dictionary):
     df = pd.DataFrame(final_dictionary, index=[0])
     print("dataframe",df)
-    cols=["CONSOLE","PUBLISHER","CRITICS_POINTS","CATEGORY","RATING","USER_POINTS","YEAR"]
+    cols=["YEAR","CATEGORY","CONSOLE","PUBLISHER","RATING","CRITICS_POINTS","USER_POINTS"]
     df = df[cols] 
     return jsonify({'result': model.predict(df)[0]})
    

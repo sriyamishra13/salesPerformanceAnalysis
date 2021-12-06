@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "civic-matrix-327917",
+  "private_key_id": "eda1069fb8753eab2c918408b5059b79446b7b91",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDbzGWH9Ie461ei\nku6Iwg7FqYMGwYMstlyDAuYrwWUCdT3Vm4jwwxtPbHrCSDOrfiTGHjG0TFLhGTgD\ndhiZQajF89xiQX5FhHFGhIpvhwUSQ/eMin5EJp0s90UEVegsbI37C/XxG9idy/1x\njO61XEXWtSE/zk+AV1PdNU3aABWxDZtcXh665Z7cn11HvB4QjBj+tbdXcpYO0HUl\ndLhLSyCe/p1fq39IYa2CA61ErFTeb6VqBHc1F4Fi/ijs7MuQfhfVaSYKoVZA2tRe\nOT34AwRlE56gxZ3dZt0jFrz93/nknuBk2HSBUz/7K9WoD1F+WKBtjmmMm1ylN6kL\ngky/IoGnAgMBAAECggEAYN/snAh9zVYE0QW7lpEZW6tDsbWWsB1MFv4vHnfloji0\nYTJlH+COZ+ojDQAvrdUyNhPWymWdXdL0qinh26Jh1aWOq8u78L3YA0GlllRHOu6z\n68CauETgn5H4XFnUs8fAqDZ0Vql0RtBCy0pXZ53cti4tEmdHCQT0VJoKzxucc+T/\nSshAhKUnkRhur2wzwc32IGUx+pMlaw+kvZgCRhpxVfFGHjbaeQjIg0otyUhYq3ZA\n8R+Dk/Pz+p9O3UeZzIesFfIjZXK9PDUEwXPdVKPVOR3m8BTDPX9V1Lp6tVjqOiYw\ni2FCtn8nRwd0Gh3dtEKRd83yt+I80gjmdg8zK9K/SQKBgQDuz+e9eUOt7GmVa49k\n9Nm78CuZmi17yy/5KgpG01jb0cjwrRhiDd3cyjChXYS/gfQeM/5ASc/8nRW9prvv\ndyZXEpUDQU7633pQ3UHy9E4Vmujtxp//DAPT+KlcQ+PC3oZIurCkQrOb5ALVHqDd\nH3r7mmcORFaYbbZi0nTLrrjDGwKBgQDrnipTflPVADLOBVxeFn8ujQaLrLjb2dmC\nRcR412H9C6ashBcDGiwqujGICgT5kujEQRJyn4ZfrW0tro3kIubIe98j7vFbbxyr\neHPH51Oso4PpVaAMHF6MYL6DJFvrIbVpjkHjBJ5CqS0RpU4W5zCegJyGr0EC5EKD\nTh9aBgkYZQKBgQDshwLRyR9dTcAtfADkTxawa+njEq9l4xM6x4ayK3XhEmDg77As\nves2WRPdXxCx1PaCS6DQ78qOOs9jrZaKUQqqRv9L4A1nsJwnJ13AUnRcNbfqeUXS\niIXqFmk3tw4I3flGY5G8v0vBZQ3hI5rUJ+/Y706O9OSHyHJSYnvHmN/qbQKBgQDj\nI+/z26Xfgjh4Cgz4m0FyU/vKbPEs6H/aKX31bNWHB1Nfnls8319StXqIhfgzzN9e\nSskI/SaiV+MXld4t30OSZHBCCNheZ+hAmXcscKJmnJ/PMn9/DV5Mf/tJG6UNMMrd\nfomf29ThuIu9Jhn41Fk3hA7hfFP1AK3qPUbWF1lvTQKBgDKhGiBBDyqWELDPfYf9\ncllomjhKGHQJMwQuSsn0/dbcMhIt514Kyf8YuYd4p0XN4HFp2ePfWY3QMkoqjmyH\nzGLqdvTkWJkWLf2iib2nkxlqIq898qFIzGvH/nE8ldirBaxP2hdFKQZz3eJ8lfJF\nbCuFFDL/T9HQTOFK/zEDTDIp\n-----END PRIVATE KEY-----\n",
+  "client_email": "subscriber-svc@civic-matrix-327917.iam.gserviceaccount.com",
+  "client_id": "101259827397312375498",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/subscriber-svc%40civic-matrix-327917.iam.gserviceaccount.com"
+}

@@ -46,9 +46,11 @@ def not_found(error):
 def result_data(final_dictionary):
     df = pd.DataFrame(final_dictionary, index=[0])
     print("dataframe",df)
-    cols=["YEAR","CATEGORY","CONSOLE","PUBLISHER","RATING","CRITICS_POINTS","USER_POINTS"]
-    df = df[cols] 
-    return jsonify({'result': model.predict(df)[0]})
+    cols=["CONSOLE","CATEGORY","RATING","YEAR","USER_POINTS","PUBLISHER","CRITICS_POINTS"]
+    df = df[cols]
+    result = model.predict(df)[0]
+    print(result)
+    return json.dumps(result),200
    
 
 def process_payload(message):
@@ -86,4 +88,4 @@ def consume_payload():
      
 
 if __name__ == "__main__":
-  app.run(host='127.0.0.1', port=8080, debug=True)
+  app.run()

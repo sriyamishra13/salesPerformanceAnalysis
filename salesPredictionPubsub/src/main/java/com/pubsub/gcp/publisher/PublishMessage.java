@@ -28,7 +28,7 @@ public class PublishMessage {
        this.pubSubPublisherTemplate = pubSubPublisherTemplate;
     }
 
-    @PostMapping("/product-details")
+    @PostMapping("/product_details")
     void pushProductDetails(@RequestBody ProductData message) throws ExecutionException, InterruptedException {
         LOGGER.info("Message received = " + message);
         String messageId = pubSubPublisherTemplate.publish("product-pubsub", message).get();
